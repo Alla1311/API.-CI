@@ -7,8 +7,7 @@ branches:
     - master  # ветка git
 
 build:
-  runs-on: ubuntu-latest
-steps:
+  runs-on:
     run: chmod +x gradlew # будем использовать свой скрипт сборки
 
 install:

@@ -6,8 +6,7 @@ branches:
   only:
     - master  # ветка git
 
-build: off
-runs-on: ubuntu-latest
+build:
 steps:
     - uses: actions/checkout@v2
     - name: Set up JDK 11
